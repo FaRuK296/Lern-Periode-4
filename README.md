@@ -14,7 +14,6 @@
 
 Heute habe ich mich mit der Erstellung eines Wegwerf-Prototyps für mein WinForms-Projekt beschäftigt. Zuerst habe ich eine einfache Benutzeroberfläche erstellt, um die Grundlagen zu testen. Dabei habe ich Felder für Beträge, Buttons und eine Liste eingebaut. Danach habe ich ausprobiert, wie man mit den eingegebenen Werten Berechnungen durchführen kann, also Einnahmen und Ausgaben hinzufügt und das Budget berechnet. Ich habe viel getestet, um zu sehen, ob die Idee überhaupt funktioniert, und dabei die Grundfunktionen in WinForms ausprobiert.
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
