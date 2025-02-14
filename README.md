@@ -10,18 +10,19 @@
 ## 14.2: Explorativer Wegwerf-Prototyp
 
 - [x] Grundlayout erstellen
-- [ ] 
+- [x] Erste Funktionalität testen
 
-✍️ Heute habe ich... (50-100 Wörter)
+Heute habe ich mich mit der Erstellung eines Wegwerf-Prototyps für mein WinForms-Projekt beschäftigt. Zuerst habe ich eine einfache Benutzeroberfläche erstellt, um die Grundlagen zu testen. Dabei habe ich Felder für Beträge, Buttons und eine Liste eingebaut. Danach habe ich ausprobiert, wie man mit den eingegebenen Werten Berechnungen durchführen kann, also Einnahmen und Ausgaben hinzufügt und das Budget berechnet. Ich habe viel getestet, um zu sehen, ob die Idee überhaupt funktioniert, und dabei die Grundfunktionen in WinForms ausprobiert.
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] Eine Papier-Skizze der Benutzeroberfläche und des Ablaufs entwerfen. (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
+- [ ] Variablen und Datenstrukturen programmieren, um die Daten zu speichern 
+- [ ] Code für die Eingabefunktion und Berechnungen, um Einnahmen und Ausgaben hinzuzufügen und das Budget zu berechnen.
+- [ ] Überprüfen ob alles richtig funktioniert und behebe Fehler.
+
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
