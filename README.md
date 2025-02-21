@@ -18,8 +18,8 @@ Heute habe ich mich mit der Erstellung eines Wegwerf-Prototyps für mein WinForm
 ## 21.2: Explorativer Wegwerf-Prototyp
 
 - [x] Eine Papier-Skizze der Benutzeroberfläche und des Ablaufs entwerfen. (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] Variablen und Datenstrukturen programmieren, um die Daten zu speichern 
-- [ ] Code für die Eingabefunktion und Berechnungen, um Einnahmen und Ausgaben hinzuzufügen und das Budget zu berechnen.
+- [x] Variablen und Datenstrukturen programmieren, um die Daten zu speichern 
+- [x] Code für die Eingabefunktion und Berechnungen, um Einnahmen und Ausgaben hinzuzufügen und das Budget zu berechnen.
 - [ ] Überprüfen ob alles richtig funktioniert und behebe Fehler.
 
 
