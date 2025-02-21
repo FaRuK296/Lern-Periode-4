@@ -10,7 +10,8 @@ namespace LA_4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            cmbCategory.Items.Add("Income");
+            cmbCategory.Items.Add("Outcome");
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -32,6 +33,12 @@ namespace LA_4
         {
 
         }
+
+        private void cmbCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ;
+        }
+
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
@@ -57,8 +64,8 @@ namespace LA_4
             {
                 MessageBox.Show("Please enter valid amount and select category!");
             }
-        
-    }
+
+        }
     }
 }
 

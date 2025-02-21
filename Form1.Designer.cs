@@ -38,7 +38,7 @@
             // lblBudget
             // 
             lblBudget.AutoSize = true;
-            lblBudget.Location = new Point(290, 224);
+            lblBudget.Location = new Point(523, 372);
             lblBudget.Name = "lblBudget";
             lblBudget.Size = new Size(112, 25);
             lblBudget.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // txtMoneyAmount
             // 
-            txtMoneyAmount.Location = new Point(27, 54);
+            txtMoneyAmount.Location = new Point(151, 68);
             txtMoneyAmount.Name = "txtMoneyAmount";
             txtMoneyAmount.Size = new Size(180, 31);
             txtMoneyAmount.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(27, 363);
+            btnAdd.Location = new Point(151, 365);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(180, 38);
             btnAdd.TabIndex = 2;
@@ -66,18 +66,19 @@
             // cmbCategory
             // 
             cmbCategory.FormattingEnabled = true;
-            cmbCategory.Location = new Point(231, 54);
+            cmbCategory.Location = new Point(453, 68);
             cmbCategory.Name = "cmbCategory";
             cmbCategory.Size = new Size(182, 33);
             cmbCategory.TabIndex = 3;
+            cmbCategory.SelectedIndexChanged += cmbCategory_SelectedIndexChanged;
             // 
             // lstEntries
             // 
             lstEntries.FormattingEnabled = true;
             lstEntries.ItemHeight = 25;
-            lstEntries.Location = new Point(27, 117);
+            lstEntries.Location = new Point(151, 120);
             lstEntries.Name = "lstEntries";
-            lstEntries.Size = new Size(180, 229);
+            lstEntries.Size = new Size(484, 229);
             lstEntries.TabIndex = 4;
             lstEntries.SelectedIndexChanged += lstEntries_SelectedIndexChanged;
             // 
