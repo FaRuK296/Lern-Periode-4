@@ -20,14 +20,17 @@ Heute habe ich mich mit der Erstellung eines Wegwerf-Prototyps für mein WinForm
 - [x] Eine Papier-Skizze der Benutzeroberfläche und des Ablaufs entwerfen. (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
 - [x] Variablen und Datenstrukturen programmieren, um die Daten zu speichern 
 - [x] Code für die Eingabefunktion und Berechnungen, um Einnahmen und Ausgaben hinzuzufügen und das Budget zu berechnen.
-- [ ] Überprüfen ob alles richtig funktioniert und behebe Fehler.
+- [x] Überprüfen ob alles richtig funktioniert und behebe Fehler.
 
+Heute habe ich an meinem Budget-Tracker gearbeitet. Ich habe die Funktionen hinzugefügt, um Einnahmen und Ausgaben zu berechnen. Ich habe die Eingaben des Benutzers über eine TextBox und eine ComboBox erhalten. Einnahmen wurden zum Budget hinzugefügt, Ausgaben abgezogen und in einer ListBox angezeigt. Ich habe ich Fehler behoben, damit die ComboBox richtig funktioniert und das Budget korrekt angezeigt wird.
 
-✍️ Heute habe ich... (50-100 Wörter)
-
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
+- [ ] Eingaben prüfen: Nur gültige Zahlen und keine negativen Werte erlauben. Fehlermeldung zeigen, wenn etwas falsch eingegeben wird.
+- [ ] Daten speichern: Die Einträge in einer Datei speichern, damit sie beim nächsten Start wieder da sind.
+- [ ] Budget zurücksetzen: Eine Möglichkeit hinzufügen, das Budget zurückzusetzen. Zum Beispiel ein Button "zurücksetzen"
+- [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
+
 
 ## 7.3: Kern-Funktionalität
 
