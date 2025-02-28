@@ -27,7 +27,7 @@ Heute habe ich an meinem Budget-Tracker gearbeitet. Ich habe die Funktionen hinz
 
 ## 28.2: Kern-Funktionalität
 - [x] Eingaben prüfen: Nur gültige Zahlen und keine negativen Werte erlauben. Fehlermeldung zeigen, wenn etwas falsch eingegeben wird.
-- [ ] Daten speichern: Die Einträge in einer Datei speichern, damit sie beim nächsten Start wieder da sind.
+- [x] Daten speichern: Die Einträge in einer Datei speichern, damit sie beim nächsten Start wieder da sind.
 - [ ] Budget zurücksetzen: Eine Möglichkeit hinzufügen, das Budget zurückzusetzen. Zum Beispiel ein Button "zurücksetzen"
 - [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
 
