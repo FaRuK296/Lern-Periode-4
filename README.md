@@ -34,7 +34,7 @@ Heute habe ich an meinem Budget-Tracker gearbeitet. Ich habe die Funktionen hinz
 Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gemacht, der das Budget zurücksetzt und die Liste sowie die Datei leert. Außerdem habe ich gelernt, wie man Daten speichert und lädt. Ich habe auch die Funktionen für Beträge hinzufügen und Kategorien auswählen verbessert.
 
 ## 7.3: Kern-Funktionalität
-- [ ] Einen Button hinzufügen, um nur einen ausgewählten Eintrag aus der Liste und Datei zu entfernen.
+- [x] Einen Button hinzufügen, um nur einen ausgewählten Eintrag aus der Liste und Datei zu entfernen.
 - [ ] Datum zu den Einträgen speichern: Beim Hinzufügen eines Betrags soll das aktuelle Datum mit gespeichert und angezeigt werden.
 - [ ] Labels, Buttons und die Liste besser anordnen, damit die App übersichtlicher wird.
 - [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
