@@ -33,12 +33,14 @@
             btnAdd = new Button();
             cmbCategory = new ComboBox();
             lstEntries = new ListBox();
+            btnReset = new Button();
+            btnDelete = new Button();
             SuspendLayout();
             // 
             // lblBudget
             // 
             lblBudget.AutoSize = true;
-            lblBudget.Location = new Point(523, 372);
+            lblBudget.Location = new Point(549, 371);
             lblBudget.Name = "lblBudget";
             lblBudget.Size = new Size(112, 25);
             lblBudget.TabIndex = 0;
@@ -57,7 +59,7 @@
             // 
             btnAdd.Location = new Point(151, 365);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(180, 38);
+            btnAdd.Size = new Size(123, 31);
             btnAdd.TabIndex = 2;
             btnAdd.Text = "Add";
             btnAdd.UseVisualStyleBackColor = true;
@@ -82,11 +84,33 @@
             lstEntries.TabIndex = 4;
             lstEntries.SelectedIndexChanged += lstEntries_SelectedIndexChanged;
             // 
+            // btnReset
+            // 
+            btnReset.Location = new Point(398, 366);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(129, 32);
+            btnReset.TabIndex = 5;
+            btnReset.Text = "reset budget";
+            btnReset.UseVisualStyleBackColor = true;
+            btnReset.Click += btnReset_Click;
+            // 
+            // btnDelete
+            // 
+            btnDelete.Location = new Point(280, 365);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(112, 33);
+            btnDelete.TabIndex = 6;
+            btnDelete.Text = "delete";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += button1_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnDelete);
+            Controls.Add(btnReset);
             Controls.Add(lstEntries);
             Controls.Add(cmbCategory);
             Controls.Add(btnAdd);
@@ -106,5 +130,7 @@
         private Button btnAdd;
         private ComboBox cmbCategory;
         private ListBox lstEntries;
+        private Button btnReset;
+        private Button btnDelete;
     }
 }
