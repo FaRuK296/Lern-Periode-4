@@ -35,7 +35,7 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 
 ## 7.3: Kern-Funktionalität
 - [x] Einen Button hinzufügen, um nur einen ausgewählten Eintrag aus der Liste und Datei zu entfernen.
-- [ ] Datum zu den Einträgen speichern: Beim Hinzufügen eines Betrags soll das aktuelle Datum mit gespeichert und angezeigt werden.
+- [ ] den Delete Button Code Anpassen. Eine Methode RecalculateBudget() hinzufügen: Nachdem der Bentzer einen Eintrag löscht muss das Budget neu berechnet werden, weil sonst der Betrag vom gelöschten Eintrag noch enthalten ist.
 - [ ] Labels, Buttons und die Liste besser anordnen, damit die App übersichtlicher wird.
 - [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
 
