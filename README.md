@@ -35,7 +35,7 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 
 ## 7.3: Kern-Funktionalität
 - [x] Einen Button hinzufügen, um nur einen ausgewählten Eintrag aus der Liste und Datei zu entfernen.
-- [x] den Delete Button Code Anpassen. Eine Methode RecalculateBudget() hinzufügen: Nachdem der Bentzer einen Eintrag löscht muss das Budget neu berechnet werden, weil sonst der Betrag vom gelöschten Eintrag noch enthalten ist.
+- [x] den Delete Button Code Anpassen
 - [x] Labels, Buttons und die Liste besser anordnen, damit die App übersichtlicher wird.
 - [x] Überprüfen ob alles richtig funktioniert und Fehler beheben.
 
@@ -43,7 +43,10 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 
 
 ## 14.3: Architektur ausbauen
-
+Hinzufügen des Datums zu den Einträgen
+Daten beim Laden aus der Datei mit Datum lesen
+Daten im richtigen Format speichern
+Filtern nach Datum
 ## 21.3: Architektur ausbauen
 
 ## 28.3: Auspolieren
