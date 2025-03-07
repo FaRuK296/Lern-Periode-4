@@ -37,7 +37,7 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 - [x] Einen Button hinzufügen, um nur einen ausgewählten Eintrag aus der Liste und Datei zu entfernen.
 - [x] den Delete Button Code Anpassen. Eine Methode RecalculateBudget() hinzufügen: Nachdem der Bentzer einen Eintrag löscht muss das Budget neu berechnet werden, weil sonst der Betrag vom gelöschten Eintrag noch enthalten ist.
 - [x] Labels, Buttons und die Liste besser anordnen, damit die App übersichtlicher wird.
-- [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
+- [x] Überprüfen ob alles richtig funktioniert und Fehler beheben.
 
 
 
