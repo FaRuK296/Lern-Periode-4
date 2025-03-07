@@ -43,10 +43,11 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 
 
 ## 14.3: Architektur ausbauen
-Hinzufügen des Datums zu den Einträgen
-Daten beim Laden aus der Datei mit Datum lesen
-Daten im richtigen Format speichern
-Filtern nach Datum
+- [ ] Hinzufügen des Datums zu den Einträgen
+- [ ] Daten beim Laden aus der Datei mit Datum lesen
+- [ ] Daten im richtigen Format speichern
+- [ ] Filtern nach Datum
+      
 ## 21.3: Architektur ausbauen
 
 ## 28.3: Auspolieren
