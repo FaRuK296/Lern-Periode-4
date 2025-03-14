@@ -44,9 +44,11 @@ Heute habe ich an meiner Budget-App gearbeitet. Ich habe einen Reset-Button gema
 
 ## 14.3: Architektur ausbauen
 - [x] Hinzufügen des Datums zu den Einträgen
-- [ ] Daten beim Laden aus der Datei mit Datum lesen
-- [ ] Daten im richtigen Format speichern
-- [ ] Filtern nach Datum
+- [x] Daten beim Laden aus der Datei mit Datum lesen
+- [x] Daten im richtigen Format speichern
+- [x] Überprüfen ob alles richtig funktioniert und Fehler beheben.
+
+Heute habe ich das Datum zu den Einträgen hinzugefügt, damit man sieht, wann etwas eingetragen wurde. Dann habe ich es so gemacht, dass die App die Daten mit Datum speichert und beim Starten wieder richtig lädt. Außerdem habe ich das Speicherformat angepasst, damit alles ordentlich bleibt. Zum Schluss habe ich alles getestet und Fehler behoben, damit die App richtig funktioniert.
       
 ## 21.3: Architektur ausbauen
 
