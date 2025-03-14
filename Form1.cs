@@ -14,39 +14,30 @@ namespace LA_4
             cmbCategory.Items.Add("Income");
             cmbCategory.Items.Add("Outcome");
 
-            // check if file exists
             if (File.Exists(filePath))
-
             {
                 string[] lines = File.ReadAllLines(filePath);
 
                 foreach (string line in lines)
                 {
+                    string[] parts = line.Split(';');
 
-                    string[] parts = line.Split(";");
-
-                    if (parts.Length == 2 && decimal.TryParse(parts[1], out decimal amount))
+                    if (parts.Length == 3 && decimal.TryParse(parts[1], out decimal amount))
                     {
-
                         string category = parts[0];
+                        string date = parts[2];
 
-                        if (category == "Income")
-                        {
-                            budget += amount;
-                            lstEntries.Items.Add("+" + amount + "$");
-                        }
+                        
+                        budget += category == "Income" ? amount : -amount;
 
-                        else if (category == "Outcome")
-                        {
-                            budget -= amount;
-                            lstEntries.Items.Add("-" + amount + "$");
-                        }
+                        
+                        lstEntries.Items.Add($"{(category == "Income" ? "+" : "-")} {amount} $ am {date}");
                     }
                 }
-
-                lblBudget.Text = "Budget" + budget + "$";
+                lblBudget.Text = "Budget: " + budget + " $";
             }
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -79,34 +70,25 @@ namespace LA_4
             if (decimal.TryParse(txtMoneyAmount.Text, out decimal moneyAmount) && moneyAmount > 0 && cmbCategory.SelectedItem != null)
             {
                 string category = cmbCategory.SelectedItem.ToString();
+                string date = DateTime.Now.ToString("yyyy-MM-dd HH:mm:");
 
-                if (category == "Income")
-                {
-                    budget += moneyAmount;
-                    lstEntries.Items.Add("+ " + moneyAmount + " $");
-                }
-                else if (category == "Outcome")
-                {
-                    budget -= moneyAmount;
-                    lstEntries.Items.Add("- " + moneyAmount + " $");
-                }
+                string entry = $"{category};{moneyAmount};{date}";
+                lstEntries.Items.Add($"{(category == "Income" ? "+" : "-")} {moneyAmount} $ on {date}");
 
+                
+                budget += category == "Income" ? moneyAmount : -moneyAmount;
                 lblBudget.Text = "Budget: " + budget + " $";
                 txtMoneyAmount.Clear();
 
-                // Save new entry in file
-                File.AppendAllText(filePath, category + ";" + moneyAmount + Environment.NewLine);
-
-
+                
+                File.AppendAllText(filePath, entry + Environment.NewLine);
             }
-
-
             else
             {
-                MessageBox.Show("Please enter valid and positive amount of money and select category!");
+                MessageBox.Show("Please enter a valid and positive amount and select a category!");
             }
-
         }
+
 
         private void btnReset_Click(object sender, EventArgs e)
         {
@@ -138,18 +120,25 @@ namespace LA_4
         }
 
         private void SaveEntriesToFile()
-
         {
             using (StreamWriter writer = new StreamWriter(filePath))
             {
                 foreach (var item in lstEntries.Items)
                 {
-                    writer.WriteLine(item.ToString());
+                    string[] parts = item.ToString().Split(' ');
+                    if (parts.Length >= 4)
+                    {
+                        string sign = parts[0];
+                        decimal amount = decimal.Parse(parts[1]);
+                        string date = parts[3] + " " + parts[4];
+
+                        string category = sign == "+" ? "Income" : "Outcome";
+                        writer.WriteLine($"{category};{amount};{date}");
+                    }
                 }
-
-
             }
         }
+
     }
 
 }

@@ -78,7 +78,7 @@
             // 
             lstEntries.FormattingEnabled = true;
             lstEntries.ItemHeight = 25;
-            lstEntries.Location = new Point(151, 120);
+            lstEntries.Location = new Point(151, 130);
             lstEntries.Name = "lstEntries";
             lstEntries.Size = new Size(484, 229);
             lstEntries.TabIndex = 4;
@@ -108,6 +108,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(800, 450);
             Controls.Add(btnDelete);
             Controls.Add(btnReset);
