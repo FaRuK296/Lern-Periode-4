@@ -4,6 +4,8 @@ namespace LA_4
     {
         private decimal budget = 0;
         private string filePath = "budget_data.txt";
+
+       
         public Form1()
         {
             InitializeComponent();
@@ -27,17 +29,14 @@ namespace LA_4
                         string category = parts[0];
                         string date = parts[2];
 
-                        
                         budget += category == "Income" ? amount : -amount;
 
-                        
                         lstEntries.Items.Add($"{(category == "Income" ? "+" : "-")} {amount} $ am {date}");
                     }
                 }
                 lblBudget.Text = "Budget: " + budget + " $";
             }
         }
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -64,7 +63,6 @@ namespace LA_4
             ;
         }
 
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (decimal.TryParse(txtMoneyAmount.Text, out decimal moneyAmount) && moneyAmount > 0 && cmbCategory.SelectedItem != null)
@@ -75,12 +73,10 @@ namespace LA_4
                 string entry = $"{category};{moneyAmount};{date}";
                 lstEntries.Items.Add($"{(category == "Income" ? "+" : "-")} {moneyAmount} $ on {date}");
 
-                
                 budget += category == "Income" ? moneyAmount : -moneyAmount;
                 lblBudget.Text = "Budget: " + budget + " $";
                 txtMoneyAmount.Clear();
 
-                
                 File.AppendAllText(filePath, entry + Environment.NewLine);
             }
             else
@@ -88,7 +84,6 @@ namespace LA_4
                 MessageBox.Show("Please enter a valid and positive amount and select a category!");
             }
         }
-
 
         private void btnReset_Click(object sender, EventArgs e)
         {
@@ -105,14 +100,10 @@ namespace LA_4
         private void button1_Click(object sender, EventArgs e)
         {
             if (lstEntries.SelectedIndex != -1)
-
             {
                 lstEntries.Items.RemoveAt(lstEntries.SelectedIndex);
-
                 SaveEntriesToFile();
-
             }
-
             else
             {
                 MessageBox.Show("Please choose an Entry.");
@@ -139,7 +130,21 @@ namespace LA_4
             }
         }
 
+       
+
+        private void btnCalculateGoal_Click(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txtWeeklySave.Text, out decimal weeklyAmount) &&
+                decimal.TryParse(txtGoal.Text, out decimal goalAmount) &&
+                weeklyAmount > 0 && goalAmount > 0)
+            {
+                int weeksNeeded = (int)Math.Ceiling(goalAmount / weeklyAmount);
+                lblGoalResult.Text = $"Du musst {weeksNeeded} Woche(n) sparen, um dein Ziel von {goalAmount} € zu erreichen.";
+            }
+            else
+            {
+                MessageBox.Show("Bitte gib gültige, positive Zahlen für beide Felder ein.");
+            }
+        }
     }
-
 }
-

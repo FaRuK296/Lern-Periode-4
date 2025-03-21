@@ -35,12 +35,16 @@
             lstEntries = new ListBox();
             btnReset = new Button();
             btnDelete = new Button();
+            txtWeeklySave = new TextBox();
+            txtGoal = new TextBox();
+            btnCalculateGoal = new Button();
+            lblGoalResult = new Label();
             SuspendLayout();
             // 
             // lblBudget
             // 
             lblBudget.AutoSize = true;
-            lblBudget.Location = new Point(549, 371);
+            lblBudget.Location = new Point(417, 371);
             lblBudget.Name = "lblBudget";
             lblBudget.Size = new Size(112, 25);
             lblBudget.TabIndex = 0;
@@ -49,7 +53,7 @@
             // 
             // txtMoneyAmount
             // 
-            txtMoneyAmount.Location = new Point(151, 68);
+            txtMoneyAmount.Location = new Point(28, 70);
             txtMoneyAmount.Name = "txtMoneyAmount";
             txtMoneyAmount.Size = new Size(180, 31);
             txtMoneyAmount.TabIndex = 1;
@@ -57,7 +61,7 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(151, 365);
+            btnAdd.Location = new Point(28, 368);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(123, 31);
             btnAdd.TabIndex = 2;
@@ -68,7 +72,7 @@
             // cmbCategory
             // 
             cmbCategory.FormattingEnabled = true;
-            cmbCategory.Location = new Point(453, 68);
+            cmbCategory.Location = new Point(229, 68);
             cmbCategory.Name = "cmbCategory";
             cmbCategory.Size = new Size(182, 33);
             cmbCategory.TabIndex = 3;
@@ -78,7 +82,7 @@
             // 
             lstEntries.FormattingEnabled = true;
             lstEntries.ItemHeight = 25;
-            lstEntries.Location = new Point(151, 130);
+            lstEntries.Location = new Point(28, 114);
             lstEntries.Name = "lstEntries";
             lstEntries.Size = new Size(484, 229);
             lstEntries.TabIndex = 4;
@@ -86,7 +90,7 @@
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(398, 366);
+            btnReset.Location = new Point(282, 367);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(129, 32);
             btnReset.TabIndex = 5;
@@ -96,7 +100,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(280, 365);
+            btnDelete.Location = new Point(157, 368);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(112, 33);
             btnDelete.TabIndex = 6;
@@ -104,12 +108,48 @@
             btnDelete.UseVisualStyleBackColor = true;
             btnDelete.Click += button1_Click;
             // 
+            // txtWeeklySave
+            // 
+            txtWeeklySave.Location = new Point(564, 178);
+            txtWeeklySave.Name = "txtWeeklySave";
+            txtWeeklySave.Size = new Size(150, 31);
+            txtWeeklySave.TabIndex = 7;
+            // 
+            // txtGoal
+            // 
+            txtGoal.Location = new Point(564, 141);
+            txtGoal.Name = "txtGoal";
+            txtGoal.Size = new Size(150, 31);
+            txtGoal.TabIndex = 8;
+            // 
+            // btnCalculateGoal
+            // 
+            btnCalculateGoal.Location = new Point(581, 226);
+            btnCalculateGoal.Name = "btnCalculateGoal";
+            btnCalculateGoal.Size = new Size(112, 34);
+            btnCalculateGoal.TabIndex = 9;
+            btnCalculateGoal.Text = "calculate";
+            btnCalculateGoal.UseVisualStyleBackColor = true;
+            // 
+            // lblGoalResult
+            // 
+            lblGoalResult.AutoSize = true;
+            lblGoalResult.Location = new Point(609, 290);
+            lblGoalResult.Name = "lblGoalResult";
+            lblGoalResult.Size = new Size(59, 25);
+            lblGoalResult.TabIndex = 10;
+            lblGoalResult.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblGoalResult);
+            Controls.Add(btnCalculateGoal);
+            Controls.Add(txtGoal);
+            Controls.Add(txtWeeklySave);
             Controls.Add(btnDelete);
             Controls.Add(btnReset);
             Controls.Add(lstEntries);
@@ -133,5 +173,9 @@
         private ListBox lstEntries;
         private Button btnReset;
         private Button btnDelete;
+        private TextBox txtWeeklySave;
+        private TextBox txtGoal;
+        private Button btnCalculateGoal;
+        private Label lblGoalResult;
     }
 }
