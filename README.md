@@ -55,6 +55,7 @@ Heute habe ich das Datum zu den Einträgen hinzugefügt, damit man sieht, wann e
 - [x] Logik zur Berechnung des Sparziels programmieren, der dann die eingaben liest und ausgibt und berechnet wie viele Wochen man sparen muss bis das Ziel erreicht wurde.
 - [x] Funktion testen und Fehlerbehandlung ergänzen
 
+Heute habe ich einen Sparziel-Rechner in mein Programm eingebaut. Man kann eingeben, wie viel man pro Woche sparen will und was das Sparziel ist. Dann rechnet das Programm aus, wie viele Wochen man sparen muss. Ich habe die Oberfläche angepasst, den Code geschrieben und getestet.
 
 
 ## 28.3: Auspolieren
