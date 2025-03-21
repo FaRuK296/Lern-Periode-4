@@ -53,7 +53,7 @@ Heute habe ich das Datum zu den Einträgen hinzugefügt, damit man sieht, wann e
 ## 21.3: Architektur ausbauen
 - [x] Benutzeroberfläche erweitern: Textboxen, buttons labels usw. hinzufügen und namen und text anpassen
 - [x] Logik zur Berechnung des Sparziels programmieren, der dann die eingaben liest und ausgibt und berechnet wie viele Wochen man sparen muss bis das Ziel erreicht wurde.
-- [ ] Funktion testen und Fehlerbehandlung ergänzen
+- [x] Funktion testen und Fehlerbehandlung ergänzen
 
 
 
