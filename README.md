@@ -61,7 +61,7 @@ Heute habe ich einen Sparziel-Rechner in mein Programm eingebaut. Man kann einge
 ## 28.3: Auspolieren
 - [ ] Überprüfenm ob der Code für das Budget klar und übersichtlich ist und unnötige Teile entfernen
 - [ ] Überprüfen ob das Speichern und Laden der Daten richtig funktioniert und es falls nötig verbessern
-- [ ] Kommentare in den Code hinzufügen damit ich einen besseren überblick habe
+- [ ] Layout designen
 - [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
 
 ## 4.4: Auspolieren & Abschluss
