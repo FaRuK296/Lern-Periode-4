@@ -60,8 +60,12 @@ Heute habe ich einen Sparziel-Rechner in mein Programm eingebaut. Man kann einge
 
 ## 28.3: Auspolieren
 - [x] Überprüfenm ob der Code für das Budget klar und übersichtlich ist und unnötige Teile entfernen
-- [ ] Überprüfen ob das Speichern und Laden der Daten richtig funktioniert und es falls nötig verbessern
-- [ ] Layout designen
-- [ ] Überprüfen ob alles richtig funktioniert und Fehler beheben.
+- [x] Überprüfen ob das Speichern und Laden der Daten richtig funktioniert und es falls nötig verbessern
+- [x] Layout designen
+- [x] Überprüfen ob alles richtig funktioniert und Fehler beheben.
+
+Heute habe ich den Sparzielrechner entfernt. Ich habe mich dazu entschieden weil er irgendwie nur Probleme gemacht hat. Ausserdem finde ich die App besser ohne den Rechner. ich habe den Code ausgeputzt. Danach habe ich lange am Layout gearbeitet. Ich finde es ist mir sehr gelungen. 
 
 ## 4.4: Auspolieren & Abschluss
+- [ ] Den Code analysieren und vollständig ausputzen
+- [ ] Das Layout perfektionieren
