@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             lblBudget = new Label();
             txtMoneyAmount = new TextBox();
             btnAdd = new Button();
@@ -35,121 +36,133 @@
             lstEntries = new ListBox();
             btnReset = new Button();
             btnDelete = new Button();
-            txtWeeklySave = new TextBox();
-            txtGoal = new TextBox();
-            btnCalculateGoal = new Button();
-            lblGoalResult = new Label();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // lblBudget
             // 
             lblBudget.AutoSize = true;
-            lblBudget.Location = new Point(417, 371);
+            lblBudget.BackColor = Color.PapayaWhip;
+            lblBudget.Font = new Font("Broadway", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblBudget.ForeColor = Color.SeaGreen;
+            lblBudget.Location = new Point(619, 350);
             lblBudget.Name = "lblBudget";
-            lblBudget.Size = new Size(112, 25);
+            lblBudget.Size = new Size(119, 20);
             lblBudget.TabIndex = 0;
-            lblBudget.Text = "Budget: 0 Fr.";
+            lblBudget.Text = "Budget: 0 $";
             lblBudget.Click += lblBudget_Click;
             // 
             // txtMoneyAmount
             // 
-            txtMoneyAmount.Location = new Point(28, 70);
+            txtMoneyAmount.BackColor = Color.PapayaWhip;
+            txtMoneyAmount.Font = new Font("Broadway", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtMoneyAmount.ForeColor = Color.SeaGreen;
+            txtMoneyAmount.Location = new Point(85, 56);
             txtMoneyAmount.Name = "txtMoneyAmount";
-            txtMoneyAmount.Size = new Size(180, 31);
+            txtMoneyAmount.Size = new Size(180, 28);
             txtMoneyAmount.TabIndex = 1;
             txtMoneyAmount.TextChanged += textBox1_TextChanged;
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(28, 368);
+            btnAdd.BackColor = Color.PapayaWhip;
+            btnAdd.Font = new Font("Broadway", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnAdd.ForeColor = Color.SeaGreen;
+            btnAdd.Location = new Point(28, 350);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(123, 31);
+            btnAdd.Size = new Size(123, 88);
             btnAdd.TabIndex = 2;
             btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
             // cmbCategory
             // 
+            cmbCategory.BackColor = Color.PapayaWhip;
+            cmbCategory.Font = new Font("Broadway", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            cmbCategory.ForeColor = Color.SeaGreen;
             cmbCategory.FormattingEnabled = true;
-            cmbCategory.Location = new Point(229, 68);
+            cmbCategory.Location = new Point(505, 56);
             cmbCategory.Name = "cmbCategory";
-            cmbCategory.Size = new Size(182, 33);
+            cmbCategory.Size = new Size(182, 28);
             cmbCategory.TabIndex = 3;
             cmbCategory.SelectedIndexChanged += cmbCategory_SelectedIndexChanged;
             // 
             // lstEntries
             // 
+            lstEntries.BackColor = Color.SeaGreen;
+            lstEntries.Cursor = Cursors.Hand;
+            lstEntries.Font = new Font("Broadway", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lstEntries.ForeColor = Color.PapayaWhip;
             lstEntries.FormattingEnabled = true;
-            lstEntries.ItemHeight = 25;
+            lstEntries.ItemHeight = 20;
             lstEntries.Location = new Point(28, 114);
             lstEntries.Name = "lstEntries";
-            lstEntries.Size = new Size(484, 229);
+            lstEntries.Size = new Size(727, 224);
             lstEntries.TabIndex = 4;
             lstEntries.SelectedIndexChanged += lstEntries_SelectedIndexChanged;
             // 
             // btnReset
             // 
-            btnReset.Location = new Point(282, 367);
+            btnReset.BackColor = Color.PapayaWhip;
+            btnReset.Font = new Font("Broadway", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnReset.ForeColor = Color.SeaGreen;
+            btnReset.Location = new Point(282, 350);
             btnReset.Name = "btnReset";
-            btnReset.Size = new Size(129, 32);
+            btnReset.Size = new Size(161, 88);
             btnReset.TabIndex = 5;
             btnReset.Text = "reset budget";
-            btnReset.UseVisualStyleBackColor = true;
+            btnReset.UseVisualStyleBackColor = false;
             btnReset.Click += btnReset_Click;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(157, 368);
+            btnDelete.BackColor = Color.PapayaWhip;
+            btnDelete.Font = new Font("Broadway", 14F);
+            btnDelete.ForeColor = Color.SeaGreen;
+            btnDelete.Location = new Point(157, 350);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(112, 33);
+            btnDelete.Size = new Size(119, 88);
             btnDelete.TabIndex = 6;
             btnDelete.Text = "delete";
-            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.UseVisualStyleBackColor = false;
             btnDelete.Click += button1_Click;
             // 
-            // txtWeeklySave
+            // label1
             // 
-            txtWeeklySave.Location = new Point(564, 178);
-            txtWeeklySave.Name = "txtWeeklySave";
-            txtWeeklySave.Size = new Size(150, 31);
-            txtWeeklySave.TabIndex = 7;
+            label1.AutoSize = true;
+            label1.BackColor = Color.PapayaWhip;
+            label1.Font = new Font("Broadway", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.SeaGreen;
+            label1.Location = new Point(28, 5);
+            label1.Name = "label1";
+            label1.Size = new Size(288, 34);
+            label1.TabIndex = 7;
+            label1.Text = "money amount ⬇️";
             // 
-            // txtGoal
+            // label2
             // 
-            txtGoal.Location = new Point(564, 141);
-            txtGoal.Name = "txtGoal";
-            txtGoal.Size = new Size(150, 31);
-            txtGoal.TabIndex = 8;
-            // 
-            // btnCalculateGoal
-            // 
-            btnCalculateGoal.Location = new Point(581, 226);
-            btnCalculateGoal.Name = "btnCalculateGoal";
-            btnCalculateGoal.Size = new Size(112, 34);
-            btnCalculateGoal.TabIndex = 9;
-            btnCalculateGoal.Text = "calculate";
-            btnCalculateGoal.UseVisualStyleBackColor = true;
-            // 
-            // lblGoalResult
-            // 
-            lblGoalResult.AutoSize = true;
-            lblGoalResult.Location = new Point(609, 290);
-            lblGoalResult.Name = "lblGoalResult";
-            lblGoalResult.Size = new Size(59, 25);
-            lblGoalResult.TabIndex = 10;
-            lblGoalResult.Text = "label1";
+            label2.AutoSize = true;
+            label2.BackColor = Color.PapayaWhip;
+            label2.Font = new Font("Broadway", 15F);
+            label2.ForeColor = Color.SeaGreen;
+            label2.Location = new Point(442, 5);
+            label2.Name = "label2";
+            label2.Size = new Size(313, 34);
+            label2.TabIndex = 8;
+            label2.Text = "income/outcome ⬇️";
+            label2.Click += label2_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
-            ClientSize = new Size(800, 450);
-            Controls.Add(lblGoalResult);
-            Controls.Add(btnCalculateGoal);
-            Controls.Add(txtGoal);
-            Controls.Add(txtWeeklySave);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(784, 450);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(btnDelete);
             Controls.Add(btnReset);
             Controls.Add(lstEntries);
@@ -173,9 +186,7 @@
         private ListBox lstEntries;
         private Button btnReset;
         private Button btnDelete;
-        private TextBox txtWeeklySave;
-        private TextBox txtGoal;
-        private Button btnCalculateGoal;
-        private Label lblGoalResult;
+        private Label label1;
+        private Label label2;
     }
 }

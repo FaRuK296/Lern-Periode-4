@@ -5,7 +5,7 @@ namespace LA_4
         private decimal budget = 0;
         private string filePath = "budget_data.txt";
 
-       
+
         public Form1()
         {
             InitializeComponent();
@@ -62,7 +62,6 @@ namespace LA_4
         {
             ;
         }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (decimal.TryParse(txtMoneyAmount.Text, out decimal moneyAmount) && moneyAmount > 0 && cmbCategory.SelectedItem != null)
@@ -130,21 +129,9 @@ namespace LA_4
             }
         }
 
-       
-
-        private void btnCalculateGoal_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(txtWeeklySave.Text, out decimal weeklyAmount) &&
-                decimal.TryParse(txtGoal.Text, out decimal goalAmount) &&
-                weeklyAmount > 0 && goalAmount > 0)
-            {
-                int weeksNeeded = (int)Math.Ceiling(goalAmount / weeklyAmount);
-                lblGoalResult.Text = $"Du musst {weeksNeeded} Woche(n) sparen, um dein Ziel von {goalAmount} € zu erreichen.";
-            }
-            else
-            {
-                MessageBox.Show("Bitte gib gültige, positive Zahlen für beide Felder ein.");
-            }
+
         }
     }
 }
