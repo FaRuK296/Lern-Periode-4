@@ -78,3 +78,6 @@ So Sieht meine Applikation aus:
 
 ![image](https://github.com/user-attachments/assets/18eae681-f5f2-4860-a12d-c93f5e06d760)
 
+
+## Reflexion
+Durch diese Lernperiode habe ich sehr viel über das Proggrammieren in C# gelernt. Ich persöhnlich finde Winforms sehr interessant da man auch das Design der App selbst dastellen kann. Besonders spannend fand ich es, die Benutzeroberfläche mit der Logik zu verbinden. Ich habe gelernt, wie man Benutzereingaben verarbeitet, mit Dateien arbeitet und das Budget berechnet. Am Anfang war es nicht ganz einfach, den Überblick zu behalten, aber mit der Zeit wurde es immer besser. Ich bin stolz, dass meine App funktioniert und gut aussieht. Insgesamt habe ich viel gelernt und es macht mir spass, eigene Anwendungen zu erstellen.
