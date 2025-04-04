@@ -75,5 +75,6 @@ In meinem Projekt habe ich eine WinForms programmiert, mit der man ein persönli
 Man kann Geldbeträge eingeben und auswählen, ob es sich um Einnahmen oder Ausgaben handelt. Die Einträge werden in einer Liste angezeigt, und das Programm berechnet automatisch das aktuelle Budget. Alle Einträge werden gespeichert, sodass sie beim nächsten Start wieder angezeigt werden. Man kann Einträge auch löschen oder das ganze Budget zurücksetzen. Ich habe auch ein eigenes Design erstellt, mit Hintergrundbild, Farben und großen Buttons, damit die Anwendung übersichtlich und leicht zu bedienen ist.
 
 So Sieht meine Applikation aus:
+
 ![image](https://github.com/user-attachments/assets/18eae681-f5f2-4860-a12d-c93f5e06d760)
 
