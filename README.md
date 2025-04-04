@@ -67,5 +67,13 @@ Heute habe ich einen Sparziel-Rechner in mein Programm eingebaut. Man kann einge
 Heute habe ich den Sparzielrechner entfernt. Ich habe mich dazu entschieden weil er irgendwie nur Probleme gemacht hat. Ausserdem finde ich die App besser ohne den Rechner. ich habe den Code ausgeputzt. Danach habe ich lange am Layout gearbeitet. Ich finde es ist mir sehr gelungen. 
 
 ## 4.4: Auspolieren & Abschluss
-- [ ] Den Code analysieren und vollständig ausputzen
-- [ ] Das Layout perfektionieren
+- [x] Den Code analysieren und vollständig ausputzen
+- [x] Das Layout perfektionieren
+
+## Fertiges Projekt
+In meinem Projekt habe ich eine WinForms programmiert, mit der man ein persönliches Budget verwalten kann.
+Man kann Geldbeträge eingeben und auswählen, ob es sich um Einnahmen oder Ausgaben handelt. Die Einträge werden in einer Liste angezeigt, und das Programm berechnet automatisch das aktuelle Budget. Alle Einträge werden gespeichert, sodass sie beim nächsten Start wieder angezeigt werden. Man kann Einträge auch löschen oder das ganze Budget zurücksetzen. Ich habe auch ein eigenes Design erstellt, mit Hintergrundbild, Farben und großen Buttons, damit die Anwendung übersichtlich und leicht zu bedienen ist.
+
+So Sieht meine Applikation aus:
+![image](https://github.com/user-attachments/assets/18eae681-f5f2-4860-a12d-c93f5e06d760)
+
